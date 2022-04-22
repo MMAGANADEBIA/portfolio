@@ -1,0 +1,40 @@
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#headerWave {
+  height: 60vh;
+  transform: rotate(180deg);
+  position: absolute;
+}
+
+/* #wave-face { */
+/*   width: 100; */
+/*   height: 100; */
+/* } */
+
+#headerProfile {
+  position: absolute;
+  z-index: 1;
+  margin-top: 15vh;
+}
+
+#profilePic {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+#description {
+  color: white;
+  font-size: 40px;
+  /* position: absolute; */
+  /* z-index: 1; */
+  margin-top: 3.1em;
+}

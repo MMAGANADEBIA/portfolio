@@ -1,0 +1,73 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+h1 {
+  color: white;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  width: 45%;
+  margin-top: 2em;
+}
+
+.bigImageProject {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  width: 65%;
+  margin-top: 2em;
+}
+
+#topProject {
+  margin-top: 5em;
+}
+
+.projectImageMobile {
+  height: 300px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.projectImage {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.projectImageWeb {
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.information {
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 20em;
+  text-align: justify;
+}
+
+.left {
+  margin-left: 5em;
+}
+
+.right {
+  float: right;
+  margin-right: 5em;
+}
+
+

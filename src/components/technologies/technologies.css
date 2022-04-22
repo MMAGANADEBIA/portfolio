@@ -1,0 +1,29 @@
+#aboutTechnologies {
+  color: white;
+  margin-top: 10em;
+}
+
+#firstRow, #secondRow, #thirdRow, #fourthRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+
+.techIcons {
+  width: 6em;
+  height: 6em;
+}
+
+.zoom {
+  transition: transform .2s;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+  background-color: #FFFFFF;
+  border-radius: 10%;
+  color: #000000;
+}
