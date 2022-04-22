@@ -3,6 +3,14 @@
   margin-top: 10em;
 }
 
+#techRows{
+  padding: 2em;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 8rem;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+}
+
 #firstRow, #secondRow, #thirdRow, #fourthRow {
   display: flex;
   flex-direction: row;
@@ -19,6 +27,8 @@
   padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
+  width: 8em;
+  height: 8em;
 }
 
 .zoom:hover {
@@ -26,4 +36,5 @@
   background-color: #FFFFFF;
   border-radius: 10%;
   color: #000000;
+  box-shadow: 2px 2px 5px #999;
 }

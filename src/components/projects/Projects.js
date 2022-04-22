@@ -43,7 +43,7 @@ function Projects() {
       </div>
 
       <div >
-        <div className="bigImageProject left" data-aos="fade-right">
+        <div className="project left" data-aos="fade-right">
           <img className="bigImageProject" src={agendaWeb} alt="weather app" />
           <div className="information">
             <h3 className="appName">Agenda Web App</h3>
@@ -58,14 +58,14 @@ function Projects() {
 
       <div >
         <div className="project right" data-aos="fade-left">
-          <div className="information">
-            <h3>I use Arch BTW</h3>
-            <p>
-              I have 3 years as a Linux (or GNU/LINUX ;) ) user.
-              I can use and understand Debian based distros and now I'm using Arch Linux. :)
-            </p>
-          </div>
-          <img className="bigImageProject" src={archBtw} alt="hand shake automation" />
+            <div className="information">
+              <h3>I use Arch BTW</h3>
+              <p>
+                I have 3 years as a Linux (or GNU/LINUX ;) ) user.
+                I can use and understand Debian based distros and now I'm using Arch Linux. :)
+              </p>
+            </div>
+            <img className="bigImageProject" src={archBtw} alt="hand shake automation" />
         </div>
       </div>
 
