@@ -42,5 +42,8 @@
   display: grid;
   gap: 1rem;
   grid-auto-rows: 30rem;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 30rem));
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
